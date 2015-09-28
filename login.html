@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Project Login</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="login-wrap">
+		<?php include ('login.php') ?>
+		<center>
+			<h2>Log in</h2>
+			<div class="vanity-container">
+				<form class="login-form" action="process_login.php" method="POST">
+					<input type="text" name="username" placeholder="Username">
+					<input type="text" name="password" placeholder="Password">
+					<input type="submit" value="Login">
+				</form>
+			</div>
+		</center>
+	</div>
+</body>
+</html>

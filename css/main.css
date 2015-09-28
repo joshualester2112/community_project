@@ -1,0 +1,232 @@
+/* 
+
+PHP PROJECT STYLESHEET
+
+AUTHOR: JOSH LESTER
+
+*/
+
+* {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	background-color: #fff;
+	color: #9C8A6B;
+}
+
+.content-wrap {
+	width: 960px;
+	margin: 0 auto;
+	background-color: #8FBA9B;
+	box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.25);
+}
+
+.welcome-container {
+	width: 960px;
+	height: 600px;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	color: #CC3910;
+	display: inline-block;
+
+}
+
+	a:hover {
+		color: #332F29;
+	}
+
+h1, h2, h3 {
+	padding: 8px;
+	text-align: left;
+	color: #F1F2C4;
+}
+
+p {
+	color: #F1F2C4;
+}
+
+header {
+	width: 100%;
+	float: left;
+	height: auto;
+	background-color: #F1F2C4;
+}
+
+nav {
+	float: right;
+	position: relative;
+}
+
+	nav ul {
+		list-style-type: none;
+	}
+
+	nav ul li {
+		display: inline-block;
+		margin-right: 8px;
+	}
+
+	nav ul li a {
+		color: #F1F2C4;
+		padding: 5px 10px;
+		background-color: #CC3910;
+		border: 1px solid #CC3910;
+		border-radius: 8px;
+	}
+
+		nav ul li a:hover {
+			color: #CC3910;
+			background-color: #F1F2C4;
+		}
+
+.authenticated-container {
+	float: left;
+	width: auto;
+}
+
+	.authenticated-container h4 {
+		float: left;
+		margin-left: 8px;
+	}
+
+.user-thumbnail {
+	margin: 5px;
+	position: relative;
+	float: left;
+	width: 60px;
+	height: 60px;
+
+}
+
+	.user-thumbnail img {
+		position: absolute;
+		width: 100%;
+		border: 1px solid none;
+		border-radius: 30px;
+	}
+
+section {
+	clear: both;
+	padding: 50px 100px;
+}
+
+.welcome-msg {
+	float: left;
+	margin: 10px 100px;
+	padding: 10px;
+}
+
+.login-wrap {
+	width: 960px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+	.login-wrap h2 {
+		margin-top: 35px;
+		text-align: center;
+		color: #9C8A6B;
+	}
+
+.register input {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.comments-wrap {
+	clear: both;
+	width: 100%;
+	background-color: #fff;
+	border: 1px solid #CC3910;
+	border-radius: 8px;
+}
+
+.comment_form_container {
+	float: left;
+}
+
+	.comment-box {
+		width: 100%;
+		height: 100px;
+		overflow-y: scroll;
+		padding: 10px;
+		border: 1px solid #CC3910;
+		border-radius: 8px;
+	}
+
+	.comment_form_container input[type="submit"] {
+		margin: 8px 0px 15px 0px;
+		float: right;
+		color: #F1F2C4;
+		padding: 5px 10px;
+		background-color: #CC3910;
+		border: 1px solid #CC3910;
+		border-radius: 8px;
+	}
+
+	.comment_form_container input[type="submit"]:hover {
+			color: #CC3910;
+			background-color: #F1F2C4;
+		}
+
+.user-comment {
+	position: relative;
+	width: 100%;
+	min-height: 120px;
+	padding: 10px;
+	clear: both;
+	border-bottom: 1px solid #CC3910;
+}
+
+.profile-pic {
+	position: relative;
+	float: left;
+	width: 80px;
+	height: 110px;
+	margin-right: 12px;
+}
+
+	.profile-pic img {
+		position: absolute;
+		width: 100%;
+		border-radius: 40px;
+		border: 1px solid none;
+	}
+
+.username {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+}
+
+.comment {
+	display: inline-block;
+	background-color: pink;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.vanity-container {
+	margin-top: 3%;
+	display: inline-block;
+	padding: 20px 30px;
+	background-color: #F1F2C4;
+	border: 1px solid #CC3910;
+	border-radius: 8px;
+}
+
+footer {
+	background-color: brown;
+	padding: 5px;
+	text-align: center;
+}
